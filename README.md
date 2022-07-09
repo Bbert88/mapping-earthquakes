@@ -4,8 +4,8 @@
 
 ![overview](./Earthquake_Challenge/images/streets.png)
 
-The purpose of this project was to create and interactive visualization of Earthquake data using the d3 library to make API calls to retrieve the most
-recent data on earthquakes which have occurred throughout the world in the past 7 days. The data was retrieved from [USGS.GOV](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson) which is in GeoJSON format. The data was read in and then code was written to create the maps, using [Mapbox](https://www.mapbox.com/). Each earthquake was mapped and formatted based on its magnitude. Different colors as marker sizes were used, as determined by the magnitude. The tectonic plate data was retrieved from [Github](https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json).
+The purpose of this project was to create an interactive visualization of Earthquake data using the d3 library to make API calls to retrieve the most
+recent data on earthquakes which have occurred throughout the world in the past 7 days. The data was retrieved from [USGS.GOV](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson) which is in GeoJSON format. The data was read in and then code was written to create the maps, using [Mapbox](https://www.mapbox.com/). Each earthquake was mapped and formatted based on its magnitude. Different colors and marker sizes were used, as determined by the magnitude. The tectonic plate data was retrieved from [Github](https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json).
 
 ## Tile Layers and Overlays
 
